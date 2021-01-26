@@ -13,5 +13,13 @@ import com.springboot.web.model.Todo;
 public class TodoService {
 
    // TODO: Implement this
+   //
+   //
+    public List<Todo> retrieveTodos(String user) {
+        List<Todo> filteredTodos = new ArrayList<Todo>();
+        return filteredTodos;
+    }
     
 }
+
+
