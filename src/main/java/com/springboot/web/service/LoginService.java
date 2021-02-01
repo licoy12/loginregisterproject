@@ -14,16 +14,12 @@ public class LoginService {
 
 	public boolean validateUser(UserEntity user) {
 		Iterable<UserEntity> listOfUsers = userEntityCrudRepository.findAll();
-		
 		for(UserEntity userEntity: listOfUsers) {
 			if(userEntity.getUsername().equals(user.getUsername()) && userEntity.getPassword().equals(user.getPassword())) {
-//				System.out.println(userEntity.getUsername()+" "+userEntity.getPassword());
-//				System.out.println(user.getUsername()+" "+user.getPassword());
 				return true;
 			}
 		}
 		return false;
-
 	}
 
 }

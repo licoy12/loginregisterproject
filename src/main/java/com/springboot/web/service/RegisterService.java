@@ -23,9 +23,9 @@ public class RegisterService {
 	
 	public boolean checkUser(UserEntity user) {
 		Iterable<UserEntity> listOfUsers = userEntityCrudRepository.findAll();
-		
 		for(UserEntity userEntity:listOfUsers) {
-			if(userEntity.getUsername().equals(user.getUsername())) {
+			if(userEntity.getUsername().equalsIgnoreCase(user.getUsername())) {
+				System.out.println("ID"+userEntity.getId());
 				return false;
 			}
 		}

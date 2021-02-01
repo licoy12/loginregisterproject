@@ -26,8 +26,8 @@
 						<span class="input-group-text"> <i class="fa fa-user"></i>
 						</span>
 					</div>
-					<input name="firstName" class="form-control" placeholder="First Name"
-						type="text">
+					<input name="firstName" class="form-control"
+						placeholder="First Name" type="text">
 				</div>
 				<!-- input-group.// -->
 			</div>
@@ -49,7 +49,7 @@
 						</span>
 					</div>
 					<input name="username" class="form-control" placeholder="username"
-						type="text">
+						type="text">${userExist}
 				</div>
 				<!-- input-group.// -->
 			</div>

@@ -13,5 +13,4 @@
 <p class="text-center"><a href="login" class="btn btn-warning">Log in</a></p>
 </div>
 
-
 </html>

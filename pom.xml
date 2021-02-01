@@ -10,7 +10,7 @@
 	<packaging>war</packaging>
 
 	<name>springboot-firstwebapp</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Phase end project 2 simplilearn</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -82,7 +82,6 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
 
